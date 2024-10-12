@@ -1,5 +1,5 @@
 @echo off
-##V0.1
+:: V0.1
 :: Check for Administrator privileges
 net session >nul 2>&1
 if %errorLevel% neq 0 (
